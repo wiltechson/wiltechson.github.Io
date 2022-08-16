@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family:"Lato", sans-serif;
+    background:#487FFC;
+    display:flex;
+    width:100vw;
+    height:100vh;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.wiltechson h1 {
+    color:#FAFAFA;
+    font-size:55px;
+    text-align:center;
+    margin-bottom:10px;
+}
+.wiltechson p {
+    color:#FAFAFA;
+    width:70%;
+    text-align: center;
+    margin:auto;
+    font-size:30px;
+}
+.wiltechson #contact_devis {
+    margin-top:30px;
+    font-size:25px;
+    font-weight:bold;
+}
+.wiltechson #contact_devis a {
+    color:#FAFAFA;
+
+}
+.wiltechson_box {
+    text-align:center;
+    margin-top:50px;
+    background:#6591fa;
+    color:#FAFAFA;
+    padding:15px;
+    width:50%;
+    border-radius:10px;
+    border:1px solid #FAFAFA;
+}
+.wiltechson_box p {
+    letter-spacing: 1.5px;
+    font-size:20px;
+}
+.wiltechson_box a {
+    color:#FAFAFA;
+}
+.footer {
+    margin:20px;
+}
+.footer img {
+    width:40px;
+    display:block;
+    margin:0 auto 10px auto;
+}
+.footer p {
+    color:#FAFAFA;
+    text-align:center;
+    font-size:18px;
+}
+@media screen and (max-width:1400px) {
+    .wiltechson_box {
+        width:80%;
+    }
+}
+@media screen and (max-width:800px) {
+    body {
+        height:auto;
+        width:100%;
+    }
+    .wiltechson {
+        margin-top:100px;
+    }
+    .wiltechson h1 {
+        font-size:50px;
+    }
+    .wiltechson p {
+        width:90%;
+    }
+}
