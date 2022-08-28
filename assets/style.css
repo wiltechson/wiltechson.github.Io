@@ -1,88 +1,207 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;700&display=swap');
 
-* {
+body {
+    font-family:"Source Sans Pro", sans-serif;
     margin:0;
     padding:0;
-}
-body {
-    font-family:"Lato", sans-serif;
     background:#487FFC;
-    display:flex;
-    width:100vw;
-    height:100vh;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
+    overflow-x:hidden;
 }
-.wiltechson h1 {
-    color:#FAFAFA;
-    font-size:55px;
-    text-align:center;
-    margin-bottom:10px;
-}
-.wiltechson p {
-    color:#FAFAFA;
-    width:70%;
-    text-align: center;
+header {
     margin:auto;
+    padding:15px 0;
+    background:#6591fa;
+    border-bottom:2px solid #FAFAFA;
+}
+.navbar {
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.navbar ul {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.navbar ul {
+    padding:0;
+    margin:auto;
+}
+.navbar ul li {
+    list-style: none;
+    padding:10px 30px;
+}
+.navbar ul li a {
+    text-decoration:none;
+    font-size:20px;
+    font-weight: bold;
+    color:#FAFAFA;
+} 
+#logo_nav {
+    width:50px;
+}
+.navbar ul li a:hover {
+    text-decoration:underline;
+}
+#devis {
+    background:#487FFC;
+    padding:15px;
+    border-radius:5px;
+    color:#FAFAFA;
+    font-size:18px;
+    border:2px solid #FAFAFA;
+}
+#devis:hover {
+    background:#749bf5;
+    text-decoration:none;
+}
+.home {
+    width:90%;
+    margin:120px auto 0 auto;
+}
+.home h1 {
+    width:70%;
+    margin:auto;
+    text-align: center;
+    color:#FAFAFA;
+    font-size:50px;
+    font-weight:400;
+}
+.mes-services {
+    margin:60px auto;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.services-gauche {
+    width:50%;
+    display:flex;
+    justify-content:center;
+}
+.services-gauche img {
+    width:80%;
+}
+.creation_sites_web, .creation_cartes_visite, .creation_logos {
+    text-align: center;
+    margin: 50px auto 0 auto;
+    background: #6591fa;
+    color: #FAFAFA;
+    padding: 15px;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid #FAFAFA;
+}
+.services-droit h2 {
     font-size:30px;
 }
-.wiltechson #contact_devis {
-    margin-top:30px;
-    font-size:25px;
-    font-weight:bold;
-}
-.wiltechson #contact_devis a {
-    color:#FAFAFA;
-
-}
-.wiltechson_box {
-    text-align:center;
-    margin-top:50px;
-    background:#6591fa;
-    color:#FAFAFA;
-    padding:15px;
-    width:50%;
-    border-radius:10px;
-    border:1px solid #FAFAFA;
-}
-.wiltechson_box p {
-    letter-spacing: 1.5px;
+.services-droit p {
     font-size:20px;
 }
-.wiltechson_box a {
+hr {
+    width:80%;
+    background:#FAFAFA;
+    border:0.5px solid #FAFAFA;
+}
+.wiltechson_points_cles {
+    margin-top:100px;
+}
+.wiltechson_points_cles h2 {
     color:#FAFAFA;
+    text-align: center;
+    font-size:30px;
+    width:60%;
+    margin:10px auto;
+    font-weight:400;
 }
-.footer {
-    margin:20px;
-}
-.footer img {
-    width:40px;
+.wiltechson_points_cles img {
+    width:200px;
     display:block;
-    margin:0 auto 10px auto;
+    margin:auto;
 }
-.footer p {
+.points_cles {
+    display:flex;
+    width:90%;
+    margin:auto;
+}
+.points_cles h2 {
+    width:100%;
+    margin:10px 0;
+}
+.points_cles p {
+    font-size:20px;
+}
+.serieux, .rapidite, .communication {
+    text-align: center;
+    margin: 50px 10px;
+    background: #6591fa;
+    color: #FAFAFA;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #FAFAFA;
+}
+footer img {
+    width:50px;
+    display:block;
+    margin:auto;
+}
+footer p {
     color:#FAFAFA;
-    text-align:center;
-    font-size:18px;
+    font-size:20px;
+    text-align: center;
 }
-@media screen and (max-width:1400px) {
-    .wiltechson_box {
-        width:80%;
+@media screen and (max-width:1630px) {
+    .mes-services {
+        display:block;
+    }
+    .services-gauche {
+        display:block;
+        margin:auto;
+    }
+    .services-gauche img {
+        width:90%;
     }
 }
-@media screen and (max-width:800px) {
-    body {
-        height:auto;
+@media screen and (max-width:1160px) {
+    .points_cles {
+        display:block;
+        margin:auto;
+    }
+    .rapidite, .communication, .serieux {
+        margin:35px auto;
+    }
+}
+@media screen and (max-width:900px) {
+    .home h1 {
+        width:90%;
+    }
+    .navbar {
+        display:block;
+    }
+    .menu-gauche {
+        margin-bottom:30px;
+    }
+    .menu-droit {
+        padding-bottom:15px;
+    }
+    .navbar ul {
+        display:inline-block;
         width:100%;
+        text-align: center;
     }
-    .wiltechson {
-        margin-top:100px;
+    .services-gauche {
+        display:inherit;
+        width:inherit;
     }
-    .wiltechson h1 {
-        font-size:50px;
+
+    .creation_cartes_visite, .creation_logos, .creation_sites_web {
+        width:90%;
     }
-    .wiltechson p {
+    .wiltechson_points_cles h2 {
+        width:90%;
+    }
+    .rapidite, .communication, .serieux {
         width:90%;
     }
 }
