@@ -174,7 +174,14 @@ footer p {
 }
 @media screen and (max-width:900px) {
     .home h1 {
-        width:90%;
+        width:100%;
+        font-size:35px;
+        letter-spacing: 1px;
+    }
+    .services-gauche img {
+        width:250px;
+        display:block;
+        margin:auto;
     }
     .navbar {
         display:block;
@@ -200,6 +207,7 @@ footer p {
     }
     .wiltechson_points_cles h2 {
         width:100%;
+        margin-bottom:50px;
     }
     .rapidite, .communication, .serieux {
         width:90%;
