@@ -141,15 +141,45 @@ hr {
     border-radius: 10px;
     border: 1px solid #FAFAFA;
 }
-footer img {
-    width:50px;
-    display:block;
-    margin:auto;
+footer {
+    margin-top:70px;
+    border-top:2px solid #fafafa;
+    background:#6591FA;
+    padding:15px;
 }
-footer p {
+footer img {
+    width:70px;
+    display:block;
+    margin:15px auto 0 auto;
+}
+.footerinfos {
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-bottom:10px;
+}
+.footerinfos p {
     color:#FAFAFA;
     font-size:20px;
     text-align: center;
+    margin:0;
+    width:25%;
+}
+.footerinfos ul {
+    padding:0;
+}
+.footerinfos h3 {
+    color:#FAFAFA;
+    padding-bottom:10px;
+    font-size:25px;
+    letter-spacing:1px;
+    border-bottom:2px solid #FAFAFA;
+    width:60%;
+}
+.footerinfos li {
+    list-style-type: none;
+    font-size:18px;
+    color:#FAFAFA;
 }
 @media screen and (max-width:1630px) {
     .mes-services {
@@ -170,6 +200,26 @@ footer p {
     }
     .rapidite, .communication, .serieux {
         margin:35px auto;
+    }
+    .footerinfos {
+        display:block;
+    }
+    .footerinfos p {
+        width:90%;
+        margin:10px auto;
+    }
+    .footerinfos h3 {
+        text-align: center;
+        width:100%;
+        border:none;
+        text-decoration:underline;
+        font-size:30px;
+        margin-bottom:10px;
+    }
+    .footerinfos ul {
+        width:100%;
+        text-align: center;
+        padding-bottom:15px;
     }
 }
 @media screen and (max-width:900px) {
