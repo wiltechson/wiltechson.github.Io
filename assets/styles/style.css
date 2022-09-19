@@ -46,6 +46,7 @@ ul li a:hover {
     top:250px;
     right:100px;
     z-index: 0;
+    opacity:0.3;
 }
 #devdesign_bg {
     position:absolute;
@@ -53,6 +54,7 @@ ul li a:hover {
     top:350px;
     width:300px;
     z-index:0;
+    opacity:0.3;
 }
 .home h1 {
     color:#FAFAFA;
@@ -180,11 +182,6 @@ footer p {
 footer .infosfooter {
     display:flex;
     justify-content:space-evenly;
-}
-@media screen and (max-width:1570px) {
-    #devdesign_bg,#bulb_bg {
-        opacity:0.3;
-    }
 }
 @media screen and (max-width:1300px) {
     .pointsforts,.flex-whatwedo {
