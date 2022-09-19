@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
+body {
+    margin:0;
+    padding:0;
+    font-family:"Poppins", sans-serif
+}
+.header-home {
+    background:#070d18;
+}
+.nav-wiltechson {
+    color:#FAFAFA;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border-bottom:1px solid #fafafa8f;
+    padding:10px 0;
+}
+.nav-wiltechson h2 {
+    margin:0;
+    padding:16px 0;
+}
+ul {
+    padding:0;
+}
+ul li { 
+    display:inline-block;
+    padding:0 10px;
+}
+ul li a {
+    color:#FAFAFA;
+    text-decoration:none;
+}
+ul li a:hover {
+    text-decoration:underline;
+    text-decoration-color:#487FFC;
+}
+.home {
+    text-align:center;
+    width:60%;
+    margin:auto;
+    z-index:-1;
+}
+#bulb_bg {
+    position:absolute;
+    top:250px;
+    right:100px;
+    z-index: 0;
+}
+#devdesign_bg {
+    position:absolute;
+    left:5%;
+    top:350px;
+    width:300px;
+    z-index:0;
+}
+.home h1 {
+    color:#FAFAFA;
+    padding:70px 0 0 0;
+    font-size:45px;
+}
+.home p {
+    font-size:17px;
+    width:70%;
+    margin:auto;
+    padding-bottom:20px;
+    color:#c9c9c9;
+}
+.home h2 {
+    color:#FAFAFA;
+    padding:30px 0 50px 0;
+    font-size:20px;
+    margin:0;
+    text-decoration:underline;
+    text-decoration-color: #487FFC;
+}
+.home h2 a {
+    color:#FAFAFA;
+}
+.home h2 a:hover {
+    text-decoration-color:#487FFC;
+}
+#wiltechsoncolor {
+    color:#487FFC
+}
+.about-wiltechson {
+    margin-top:70px;
+}
+.about-wiltechson h2 {
+    text-align:center;
+    color:#000000d0;
+    font-size:30px;
+    margin-bottom:10px;
+
+}
+.about-wiltechson p#aboutme {
+    width:60%;
+    text-align: center;
+    margin:auto;
+}
+.pointsforts {
+    display:flex;
+    width:70%;
+    justify-content: space-evenly;
+    text-align: center;
+    margin:50px auto;
+}
+.rapidite,.support,.prix {
+    border:2px solid #487FFC;
+    padding:20px;
+    margin:15px;
+    border-radius:10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.rapidite h3, .support h3, .prix h3 {
+    margin-top:10px;
+}
+.devis-wiltechson {
+    position:relative;
+    width:70%;
+    background:#070d18;
+    margin:auto;
+    padding:50px 0;
+    text-align: center;
+    color:#FAFAFA;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius:10px;
+}
+.devis-wiltechson h2 {
+    margin:10px;
+}
+#vector1 {
+    position:absolute;
+    left:0;
+    z-index:100;
+    bottom:0;
+}
+#vector2 {
+    position:absolute;
+    right:0;
+    z-index: 100;
+}
+.whatwedo {
+    margin:70px;
+    text-align: center;
+}
+.whatwedo h2 {
+    text-align:center;
+    color:#000000d0;
+    font-size:30px;
+    margin-bottom:10px;
+}
+.whatwedo p#whatwedop {
+    width:60%;
+    text-align: center;
+    margin:auto;
+}
+.flex-whatwedo {
+    width:70%;
+    margin:70px auto;
+    display:flex;
+    justify-content: space-evenly;
+    font-size:1.1rem;
+    align-items: center;
+}
+.flex-whatwedo p {
+    width:80%;
+    margin:auto;
+}
+footer {
+    background:#070d18;
+    border-top:1px solid #487FFC;
+    padding:15px;
+}
+footer p {
+    padding:0;
+    text-align:center;
+    color:#FAFAFA;
+}
+footer .infosfooter {
+    display:flex;
+    justify-content:space-evenly;
+}
+@media screen and (max-width:1570px) {
+    #devdesign_bg,#bulb_bg {
+        opacity:0.3;
+    }
+}
+@media screen and (max-width:1300px) {
+    .pointsforts,.flex-whatwedo {
+        flex-direction:column;
+    }
+    .flex-whatwedo {
+        width:100%;
+        margin-top:20px;
+    }
+    .sites-web,.design {
+        margin:20px;
+    }
+    .sites-web,.design p {
+        width:100%;
+    }
+    #vector1, #vector2 {
+        opacity:0.3;
+    }
+}
+@media screen and (max-width:1000px) {
+    .home {
+        width:90%;
+    }
+    .devis-wiltechson {
+        width:90%;
+    }
+    #aboutme {
+        width:80% !important;
+        margin:10px;
+    }
+   #whatwedop {
+        width:100% !important;
+        margin:10px;
+    }
+}
+@media screen and (max-width:900px) {
+    .infosfooter {
+        flex-direction: column;
+    }
+    .infosfooter p {
+        margin:5px;
+    }
+    .nav-wiltechson {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:560px) {
+    #devdesign_bg {
+        top:500px;
+    }
+}
