@@ -232,7 +232,8 @@ footer .infosfooter {
     }
 }
 @media screen and (max-width:560px) {
-    #devdesign_bg {
-        top:500px;
+    #devdesign_bg, #bulb_bg  {
+        display:none;
     }
+    
 }
