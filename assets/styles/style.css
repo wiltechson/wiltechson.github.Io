@@ -232,5 +232,33 @@ footer .infosfooter {
     #devdesign_bg, #bulb_bg  {
         display:none;
     }
-    
+    .home h1 {
+        font-size:30px;
+    }
+    .home p {
+        width:95%;
+    }
+    .about-wiltechson h2 {
+        font-size:25px;
+    }
+    p#aboutme {
+        width:95% !important;
+    }
+    .pointsforts {
+        width:inherit;
+    }
+    .devis-wiltechson h2 {
+        font-size:20px;
+    }
+    .whatwedo {
+        margin:50px auto;
+    } 
+    .whatwedo h2 {
+        font-size:25px;
+    }
+    #whatwedop {
+        width:80% !important;
+        text-align: center;
+        font-size:15px;
+    }
 }
